@@ -1,0 +1,99 @@
+body{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color: rgba(8, 239, 239, 0.57);
+    background-image: url(./69new.png)
+ }
+ .container{
+    max-width: 400px; 
+    margin: 4vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgb(0 0 0);
+     
+     background-color: rgb(126, 124, 124); 
+    border-radius: 14px 10px 10px;
+    color: white;
+}
+ #display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+   background-color: black;
+}
+.button{
+    display: grid;
+  
+    border-bottom: 1px solid #130101;
+    border-left: 1px solid #1d1b1b;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.button >div {
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.buttons{
+    display: inline-block;
+    width: 100%;
+    margin-left: 2rem;
+    background-repeat: no-repeat;
+}
+
+.button{
+    display: inline-block;
+    width: 20%;
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+ #equal{
+    background-color: #000000;
+    color: rgb(253, 226, 226);
+}
+#equal:hover{
+   background-color: rgb(255, 255, 255);
+   color: rgb(52, 50, 50);
+}
+.button:hover{
+    background-color: rgb(248, 243, 242);
+    color: #5a5958;
+    transition: 0.5s ease;
+}   
+#add , #multi , #sub ,#C , #division, #equal,#del,#dec{
+    background-color: orange;
+    color: aqua;
+    transition: 0.5s ease;
+}
+#add:hover{
+    background-color: rgb(255, 255, 255);
+   color: rgb(52, 50, 50);
+}
+#dec:hover{
+    background-color: rgb(255, 255, 255);
+   color: rgb(52, 50, 50);
+}
+#del:hover{
+    background-color: rgb(255, 255, 255);
+   color: rgb(52, 50, 50);
+}
+#division:hover{
+    background-color: rgb(255, 255, 255);
+   color: rgb(52, 50, 50);
+}
+#C:hover{
+    background-color: rgb(255, 255, 255);
+   color: rgb(52, 50, 50);
+}
+#multi:hover{
+    background-color: rgb(255, 255, 255);
+   color: rgb(52, 50, 50);
+}
+
+#sub:hover{
+    background-color: rgb(255, 255, 255);
+   color: rgb(52, 50, 50);
+}
+
